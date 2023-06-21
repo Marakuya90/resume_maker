@@ -1,5 +1,5 @@
 <template>
-  <div class="container foto" v-bind:style="{ backgroundImage: 'url(' + foto + ')' }">
+  <div class="container foto" :style="{ backgroundImage: 'url(' + foto + ')' }">
   </div>
 </template>
 
